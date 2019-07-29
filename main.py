@@ -10,7 +10,7 @@ import mrcnn.model as modellib
 from mrcnn import utils
 
 os.system('pip install pycocotools')
-os.system('pip install python-rtmidi')
+# os.system('pip install python-rtmidi')
 # os.system('sudo apt-get install libasound2-dev')
 from object_detection import load_object, show_selection_outlines, show_selection_crop, show_selection_inverse, InferenceConfig, blending
 from werkzeug.utils import secure_filename
